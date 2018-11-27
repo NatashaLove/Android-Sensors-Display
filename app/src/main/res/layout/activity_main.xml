@@ -9,12 +9,15 @@
     tools:context=".MainActivity"
     android:transitionGroup="true">
 
-    <TextView android:text="@string/app_name" android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <TextView
         android:id="@+id/textview"
-        android:textSize="35dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="@string/action_settings"
+        android:text="@string/app_name"
+        android:textSize="35dp" />
 
     <TextView
         android:layout_width="wrap_content"
