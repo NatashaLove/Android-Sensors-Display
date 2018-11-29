@@ -36,7 +36,6 @@ public class MainActivity extends AppCompatActivity {
             // List<Sensor> mList = sensorManager.getSensorList(Sensor.TYPE_ALL);
             }
         }
-
     /*
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
